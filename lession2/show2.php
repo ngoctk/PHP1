@@ -8,6 +8,6 @@ if($gender == 0 && $_age >= 20){
 }elseif($gender == 1 && $_age >= 18){
     echo $name." chúc mừng bạn đã đủ tuổi kết hôn";
 }else{
-    echo $name." không đủ tuổi kết hôn";
+    echo $name." bạn chưa đủ tuổi kết hôn";
 }
 ?>
