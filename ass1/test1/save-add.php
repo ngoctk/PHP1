@@ -22,7 +22,6 @@ $sql = "insert into employees
         values 
             ('$name', '$birth_date', '$salary', '$filename',$card)";
 var_dump($sql);
-die;
 $stmt = $connect->prepare($sql);
 $stmt->execute();
 header("location: index.php");
