@@ -1,7 +1,7 @@
 <?php
-require_once './db.php';
+require_once '../common/db.php';
 $id = $_GET['id'];
-$sql = "delete from employees where id = $id";
+$sql = "delete from users where id = $id";
 
 $statement = $connect->prepare($sql);
 $statement->execute();
